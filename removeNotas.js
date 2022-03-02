@@ -22,14 +22,29 @@ function encontreNumero(numero) {
 console.log(`O número 8 vai estar na posição ${nf}`);
 
 //indexof()
-const index = notas4.indexOf(6);
-console.log(index);
-const index2 = notas4.indexOf(26);
-console.log(index2);
+let n = 0;
+indexado(n);
 
-//ArrayVazio
-const arrayVazia = [, , , ];
+n = 10;
+indexado(n);
+
+function indexado(n) {
+    let index = notas4.indexOf(n);
+    if (index > -1) {
+        console.log("O número pertence a lista.")
+    } else {
+        console.log("O número não pertence a lista.")
+    }
+}
+
+
+
+
+//if (index)
+
+// ArrayVazio
+/*const arrayVazia = [, , , ];
 console.log(arrayVazia.length)
 arrayVazia.push(50)
 console.log(arrayVazia)
-console.log(arrayVazia.length)
+console.log(arrayVazia.length)*/
